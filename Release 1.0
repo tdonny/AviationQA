@@ -1,0 +1,48 @@
+/*
+Aviation Question and Answer 1.0
+This application is written by Ty Donaldson
+*/
+
+#include <stdio.h>
+
+int main()
+{
+	char name[200]; // Sets char "Name" to a limit of 200 characters 
+
+	printf("Welcome to the Q&A of Aviation!\nThrough out this game, it will display a question and an answer.\nTo move on please type \"Yes\" and it will move on to the next question.\n"); 
+	printf("If the question is not explained well enter, \"No\" As it will explain it in a more detailed way.\n\n");
+	/*
+	Description of what will happen during the application lines 7-8
+	*/
+	printf("Hello. What's your name?\n"); // Asks for name for introduction
+	scanf_s("%s", &name, 200); // Gets name and stores it under NAME
+	printf("Hi there, %s. Let's get started\n", &name); // Displays the name
+	getchar(); // Get char
+
+	char a1; // Sets new char a1
+
+	printf("Are you ready to become a Pilot?\n"); // Print text
+	scanf_s("%s", &a1, 200); // Gets the users input sets to a1
+	if (a1 = "yes") // a1 equal to yes displays "Your journey stars now!"
+	{
+		printf("Your journey starts now!\n\n"); // Print text
+	}
+	getchar(); // Get char
+
+
+	char a2; // Sets new char a2
+	printf("What are the first steps?\n\nFind a flight school\nContact the flight school\nGo on a discovery flight!\n\nDoes that make sense?\n");
+	scanf_s("%s", &a2, 200); // Print list of steps 
+
+	if (a2 = "yes") // a2 equal to yes displays "Awesome, let's move on", if no displays "a1 equal to yes displays "Your journey stars now!"
+	{
+		printf("Awesome, let's move on!\n"); // Print Awesome, lets move on if a2 = yes
+
+	}
+	else
+	{
+		printf("Your journey stars now!\n"); // Print Your journey starts now if a2 /= 0.
+	}
+
+	getchar(); // Get char
+}

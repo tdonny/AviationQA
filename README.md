@@ -1,5 +1,3 @@
-# AviationQA
-GCU Benchmark projects
 
 
 
@@ -34,7 +32,7 @@ Create outline rough sketches of what will happen  	2	0
 Code the outline and thoughts	2	0
 Rethought code out and replaced whole sections of code 	1	0
 Added functions and pointers (More needs to be done.)	1	2
-		
+Added Structures and unions	2	2
 		
 		
 		
@@ -44,7 +42,7 @@ Added functions and pointers (More needs to be done.)	1	2
 		
 		
 
-GIT URL:	https://github.com/tdonny/AviationQA/blob/main/Release%203.0
+GIT URL:	https://github.com/tdonny/AviationQA/blob/main/Release%202.0
  
  
 Design Documentation
@@ -71,5 +69,6 @@ o	The application will contain many blocks of code due to the amount of text tha
 
 Other Documentation:
 
-https://www.loom.com/share/76b3c6f43d12466d929af6c99c6f7130
+https://www.loom.com/share/3e7aaf7382f24801a0a4daea0a660375
 
+![image](https://user-images.githubusercontent.com/19846932/113968861-2b0b3780-97f1-11eb-898a-a57aaa921ec4.png)

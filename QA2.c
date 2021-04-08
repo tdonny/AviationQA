@@ -1,0 +1,247 @@
+/*
+Aviation Question and Answer 3.0
+This application is written by Ty Donaldson
+*/
+
+#include <stdio.h>
+
+union name { // Creating union called 'name' as it will collect the name & display
+    char askName; // Ask for players name
+    char displayName; // Display the players name
+
+} w;
+
+struct end // Struct end for the end of the game to display the questions 
+{
+    int totalQ; // Create totalQ for the amount of Q's
+
+};
+
+
+
+void intro() // Function to display the introduction of the application and quiz,
+{
+    printf("******************* Welcome to C Quiz Game *************************** \n\n");
+    printf("** This is made by Ty Donaldson for ITT 310 **\n\n");
+}
+
+int main() {
+    int ans; // To collect answers
+    int count = 0; // Score keeper variable 
+    char name[10]; // Name for capturing the name of player
+    int var = 10; // Set number of questions - variable declaration 
+    int  *total; // Pointer declaration 
+
+    total = &var; // Pointer decleration and definition
+
+    intro(); // Display the intro
+
+    w.askName = printf("Hello. What's your name?\n"); // Asks for name for introduction;
+    scanf_s("%s", name, 20); // Gets name and stores it under NAME
+    w.displayName = printf("Hi there,**** %s ****. Let's get started\n\n\n", name); // Displays the name
+
+
+    /*
+    
+    The next loops are asking the questions and collecting the answers
+
+    If the answer is correct it will display that is was correct and report it to count
+    If the answer is incorrect it will display that is was incorrect
+
+    Count collects the amount of right answers and displays it at the end
+    */
+
+    printf("Q(1)Aviation is the best! \n 1.True \t\t2.False\n\n"); 
+    printf("Your answer: "); 
+    scanf_s("%d", &ans); 
+
+
+    if (ans == 1)
+    {
+        printf("Correct! +1 points. Great job\n\n");
+        ++count;
+        
+      
+
+    }
+    else
+    {
+        printf("Wrong Answer!\n\n");
+        
+    }
+
+    printf("Q(2)A 747 is made by Airbus! \n 1.True \t\t2.False\n\n");
+    printf("Your answer: ");
+    scanf_s("%d", &ans);
+
+
+    if (ans == 2)
+    {
+        printf("Correct! +1 points\n\n");
+        ++count;
+      
+
+    }
+    else
+    {
+        printf("Wrong Answer!\n\n");
+       
+    }
+
+    printf("Q(3) Bob Hoover was the first pilot ever! \n 1.True \t\t2.False\n\n");
+    printf("Your answer: ");
+    scanf_s("%d", &ans);
+
+
+    if (ans == 2)
+    {
+        printf("Correct! +1 points. Great job\n\n");
+        ++count;
+
+
+    }
+    else
+    {
+        printf("Wrong Answer!\n\n");
+      
+    }
+
+    printf("Q(4)Becoming a Pilot is easy \n 1.True \t\t2.False\n\n");
+    printf("Your answer: ");
+    scanf_s("%d", &ans);
+
+
+    if (ans == 1)
+    {
+        printf("Correct! +1 points. Great job\n\n");
+        ++count;
+
+
+
+    }
+    else
+    {
+        printf("Wrong Answer!\n\n");
+
+    }
+
+    printf("Q(5)The 747 MAX is a dangerous plane \n 1.True \t\t2.False\n\n");
+    printf("Your answer: ");
+    scanf_s("%d", &ans);
+
+
+    if (ans == 2)
+    {
+        printf("Correct! +1 points. Great job\n\n");
+        ++count;
+
+
+    }
+    else
+    {
+        printf("Wrong Answer!\n\n");
+
+    }
+
+    printf("Q(6) The Wright Brothers flew for 12 seconds on their first flight. \n 1.True \t\t2.False\n\n");
+    printf("Your answer: ");
+    scanf_s("%d", &ans);
+
+
+    if (ans == 1)
+    {
+        printf("Correct! +1 points. Great job\n\n");
+        ++count;
+
+
+    }
+    else
+    {
+        printf("Wrong Answer!\n\n");
+
+    }
+
+    printf("Q(7) The 747 family has flown more than 5.6 billion people \n 1.True \t\t2.False\n\n");
+    printf("Your answer: ");
+    scanf_s("%d", &ans);
+
+
+    if (ans == 1)
+    {
+        printf("Correct! +1 points. Great job\n\n");
+        ++count;
+
+
+
+    }
+    else
+    {
+        printf("Wrong Answer!\n\n");
+
+    }
+
+    printf("Q(8) JFK was always named JFK \n 1.True \t\t2.False\n\n");
+    printf("Your answer: ");
+    scanf_s("%d", &ans);
+
+
+    if (ans == 2)
+    {
+        printf("Correct! +1 points. Great job\n\n");
+        ++count;
+
+
+    }
+    else
+    {
+        printf("Wrong Answer!\n\n");
+
+    }
+
+    printf("Q(9) Qantas is the first oldest airline.  \n 1.True \t\t2.False\n\n");
+    printf("Your answer: ");
+    scanf_s("%d", &ans);
+
+
+    if (ans == 2)
+    {
+        printf("Correct! +1 points. Great job\n\n");
+        ++count;
+
+
+    }
+    else
+    {
+        printf("Wrong Answer!\n\n");
+
+    }
+
+    printf("Q(10) The F-22 is a military jet. \n 1.True \t\t2.False\n\n");
+    printf("Your answer: ");
+    scanf_s("%d", &ans);
+
+
+    if (ans == 1)
+    {
+        printf("Correct! +1 points. Great job\n\n");
+        ++count;
+
+
+
+    }
+    else
+    {
+        printf("Wrong Answer!\n\n");
+
+    }
+
+    struct end e; // Struct called from END
+    e.totalQ = 10; // Set totalQ = 10 q's total
+
+    printf("\n\Answers Correct: %d", count); // Displays Answers Correct
+    printf("\nQuestions Total: %d", e.totalQ); // Displays Total Answers
+    
+
+    return printf("\n\nThe game is now complete");
+}
+  

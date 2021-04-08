@@ -26,9 +26,9 @@ Ty Donaldson
 
 
 
-Topic:	Aviation Q&A Release 2.0
-Date:	March 17. 2021
-Revision:	2.0
+Topic:	Aviation Q&A Release 3.0
+Date:	April 7. 2021
+Revision:	3.0
 Milestone Summary:	User Story / Task	Hours Worked	Hours Remaining
 Create outline rough sketches of what will happen  	2	0
 Code the outline and thoughts	2	0
@@ -44,7 +44,7 @@ Added functions and pointers (More needs to be done.)	1	2
 		
 		
 
-GIT URL:	https://github.com/tdonny/AviationQA/blob/main/Release%201.0
+GIT URL:	https://github.com/tdonny/AviationQA/blob/main/Release%203.0
  
  
 Design Documentation

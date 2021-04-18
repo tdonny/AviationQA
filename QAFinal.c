@@ -269,7 +269,12 @@ int questions(){ // Holds questions
         
     }
 
+    total = 10;
+    int per;
  
+    printf("You got %d out of %d correct.", count, total);
+
+
 } // Questions function : Stores all the questions 
 
 int main() {

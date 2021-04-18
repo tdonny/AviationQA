@@ -42,8 +42,7 @@ Added Structures and unions	2	2
 		
 		
 
-GIT URL:	https://github.com/tdonny/AviationQA/blob/main/Release%202.0
- 
+GIT URL:	https://github.com/tdonny/AviationQA/blob/2e60573c00801575ecc64f34fc089578e6370fdc/QAFinal.c
  
 Design Documentation
 
@@ -69,6 +68,6 @@ o	The application will contain many blocks of code due to the amount of text tha
 
 Other Documentation:
 
-https://www.loom.com/share/3e7aaf7382f24801a0a4daea0a660375
 
-![image](https://user-images.githubusercontent.com/19846932/113968861-2b0b3780-97f1-11eb-898a-a57aaa921ec4.png)
+
+

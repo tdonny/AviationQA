@@ -1,46 +1,8 @@
-
-
-
-
-
-
-
 To be a Pilot…
 ITT 310 Programming for Security Professionals
 Ty Donaldson
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Topic:	Aviation Q&A Release 3.0
-Date:	April 7. 2021
-Revision:	3.0
-Milestone Summary:	User Story / Task	Hours Worked	Hours Remaining
-Create outline rough sketches of what will happen  	2	0
-Code the outline and thoughts	2	0
-Rethought code out and replaced whole sections of code 	1	0
-Added functions and pointers (More needs to be done.)	1	2
-Added Structures and unions	2	2
-		
-		
-		
-		
-		
-		
-		
-		
+Topic:	Aviation Q&A Final
+Date:	April 18. 2021
 
 GIT URL:	https://github.com/tdonny/AviationQA/blob/2e60573c00801575ecc64f34fc089578e6370fdc/QAFinal.c
  
@@ -66,7 +28,7 @@ o	The application will contain many blocks of code due to the amount of text tha
 1.	QUESTION
 2.	ANSWER
 
-Other Documentation:
+
 
 
 
